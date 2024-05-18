@@ -1,0 +1,52 @@
+.memoList {
+    display: flex;
+    // flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    // border: 1px solid #ffffff;
+    max-height: 50vh; // 
+    overflow-y: scroll;
+    margin: 20rem 1rem 0 1rem;
+    border-top: 5px solid rgba(255, 255, 255, 0.313);
+    
+    background-color: rgba(0, 0, 0, 0.092);
+    
+    
+    &::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #f1f1f100;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #ff3b8d;
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: #ad0182;
+    }
+    .memoList h1 {
+        color: #007BFF;
+        margin-bottom: 20px;
+    }
+    .aucun-memo{
+        font-size: 1.5rem;
+        position: relative;
+        // top: 10rem;
+        list-style-type: none;
+        overflow:none;
+        background-color: rgba(0, 0, 0, 0);
+      }
+
+      @media screen and (min-width: 700px){
+        margin: 20rem 20% 0 20%;
+        gap:1rem;
+      }
+}

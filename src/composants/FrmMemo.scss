@@ -1,0 +1,61 @@
+.FrmMemo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0px 0px 0px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    
+    
+    
+    .form-input{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .input-memo {
+        width: 20rem;
+        padding: 1rem;
+        /* From https://css.glass */
+        background: rgba(255, 197, 197, 0.56);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6.3px);
+        -webkit-backdrop-filter: blur(6.3px);
+        border: 0.2px solid rgba(255, 255, 255, 0.253);
+        color: white;
+
+    }
+
+    .btn-ajout {
+        padding: 1;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff00;
+        color: white;
+        cursor: pointer;
+        width: 64px;
+    }
+    .images{
+        display: flex;
+        flex-direction: row;
+        // gap: 1rem;
+    }
+    .images img{
+        cursor: grab;
+    }
+    @media screen and (min-width: 700px){
+        .form-input{
+            display: flex;
+            flex-direction: row;
+        }
+        .input-memo {
+            width: 40rem;
+
+    
+        }
+    }
+}

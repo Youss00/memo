@@ -1,0 +1,34 @@
+.Pied2Page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
+  background: rgba(0, 0, 0, 0.842);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.267);
+  backdrop-filter: blur(6.3px);
+  -webkit-backdrop-filter: blur(6.3px);
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    
+  }
+  .footer p{
+    margin-bottom: 0;
+  }
+  .bouton{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
